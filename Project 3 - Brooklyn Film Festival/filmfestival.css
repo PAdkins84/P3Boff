@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #e4e4e4!important;
+}
+
+.header {
+  height: 95vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(153, 204, 255, 0.5),
+      rgba(26, 140, 255, 0.5)
+    ),
+    url(img/headermain.jpg);
+  background-size: cover;
+  background-position: top;
+
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+#navbarTop {
+  background-color: #2220;
+  border-color: #2220;
+}
+
+#brand {
+  color: black;
+}
+
+#navbar {
+  color: black;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 35vw;
+  object-fit: cover;
+}
+
+.socialIcons {
+  color: white;
+  padding: 0.6rem;
+}
+
+.copyright {
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.card:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.card {
+  -webkit-box-shadow: -1px 9px 7px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 9px 7px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 5px 7px;
+}
+
+hr {
+  width: 86%;
+  margin: 0 auto;
+  background-color: #007bff;
+  opacity: 0.5;
+  margin-top: 2rem!important;
+  margin-bottom: 3rem!important;
+}
+
+.showingHr {
+  width: 10rem;
+  margin: 0 auto;
+  background-color: #007bff;
+  opacity: 0.5;
+}
+
+.footerHr {
+  width: 45rem;
+  margin: 0 auto;
+  background-color: white;
+  opacity: 0.2;
+}
+
+#main-footer {
+  clip-path: polygon();
+}
+
+.checkbox-inline {
+  margin-right: 0.5rem;
+}
+
+#aboutUs {
+  position: relative;
+  min-height: 200px;
+  background: url(img/bff.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+  background-size: cover;
+  height: 270px;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.row {
+  margin-right: 0;
+}
+
+.card {
+  opacity: 0.8;
+}
+
+.pre-reg {
+  margin-top: 2rem;
+}
+
+.logo {
+  width: 6rem;
+  height: 3rem;
+}
+
+.logo:hover {
+  opacity: 0.7;
+}
+
+.main-header {
+  color: white;
+  text-shadow: 5px 5px 6px black;
+}
+
+#itemBorder {
+  border: 1px solid #ffffff00;
+}
+
+.list-group-mine .headline {
+  color: #797979;
+  text-decoration: underline;
+}
+
+.navbar-nav .nav-link {
+  color: white!important;
+  float: right;
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgb(213, 216, 255)!important;
+}
+
+/* #showingDates {
+  background-image: url(img/buzz.png) ,url(img/balloon.png);
+  background-repeat: no-repeat;
+  background-position: left, right;
+  background-size: 9rem 9rem;
+  margin-left: 5px;
+  margin-right: 0px;
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.img-circle {
+  margin-top: 55px;
+  border-radius: 50%;
+  opacity: 0.6;
+  width: 22rem;
+  height: 22rem;
+}
+
+.hideme
+{
+    opacity:0;
+}
+
+.modal-title {
+  color: #007bff;
+}
+
+.modal-body {
+  color: black;
+}
+
+.btn-secondary {
+  background-color: #007bff!important;
+}
+
+.filmDate {
+  text-decoration: underline;
+}
+
+.line-1{
+  position: relative;
+  top: 50%;  
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%); 
+}
+
+/* Animation */
+.anim-typewriter{
+animation: typewriter 4s steps(44) 1s 1 normal both,
+           blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+from{width: 0;}
+to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+from{border-right-color: rgba(255,255,255,.75);}
+to{border-right-color: transparent;}
+}
+
+img.zoom {
+  width: 100%;
+  height: 150px;
+  border-radius:5px;
+  object-fit:cover;
+}
+
+img.zoom:hover {
+  opacity: 0.6;
+}
+
+@media (min-width: 0px) and (max-width: 300px) {
+  #hideSmall {
+    display: none;
+  }
+}
+
+@media (max-width: 990px) {
+  #smallHeader {
+    display: none;
+  }
+}
+
+.contactList {
+  list-style: none;
+}
+
+.logo12 {
+  position: relative;
+  right: 100px;
+  width: 31rem;
+  height: 16rem;
+}
+
+.logoBbp {
+  width: 15rem;
+  height: 5rem;
+  position: relative;
+  top: 91px;
+}
+
+.newsHeader {
+  font-size: 2rem!important;
+}
+
+.underline a {
+  color: #FFF;
+  text-decoration: none;
+  border-bottom: transparent solid 1px;
+  padding-bottom: 2px;
+}
+.underline a:hover {
+  border-bottom: darkblue solid 1px;
+  opacity: 0.2;
+}
